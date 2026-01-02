@@ -1,7 +1,110 @@
+
 header{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 10px;
 }
+
+nav menu{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo-div{
+    width: 30%
+}
+
+#logo-div p{
+    text-align: right;
+        font-style: italic;
+
+}
+#logo{
+    width: 30%;
+    min-width: 300px;
+    margin: 0;
+}
+#logo img{
+    width: 100%;
+}
+
 nav menu li{
     list-style-type: none;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+nav menu li a{
+    border-radius: 50px;
+    border: 2px solid blue;
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: serif;
+    font-size:large;
+}
+
+nav menu li a:visited{
+    color: blue;
+}
+nav menu li a:hover{
+    background-color: blue;
+    color:white;
+    font-style: italic;
+
+}
+
+#home-text{
+    width: 80%;
+    margin: auto;
+}
+
+#home-text h2{
+    font-family: serif;
+    font-size:48pt;
+    color: blue;
+    font-style: italic;
+}
+#home-text p{
+    margin: 30px 60px;
+}
+#home-text a{
+    background-color: blue;
+    color: white;
+    font-family: serif;
+    text-decoration: none;
+    font-style: italic;
+    font-size: large;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    margin: 30px 60px;
+
+
+}
+
+#home-text a:hover{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    font-style:normal;
+
+}
+
+p{
+    font-family: serif;
+    color:blue;
+}
+
+footer{
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+footer p{
+    color: white;
+    text-align: center;
 }
